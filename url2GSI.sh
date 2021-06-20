@@ -88,7 +88,7 @@ MOUNT()
             mkdir -p "$1/$p"
             printf "$p " >> "$1/mounted.txt"
             if [ $(uname) == Linux ]; then
-                sudo mount -o ro "$1/$p.img" "$1/$p"
+                sudo mount -o rw "$1/$p.img" "$1/$p"
             elif [ $(uname) == Darwin ]; then
                 fuse-ext2 "$1/$p.img" "$1/$p"
             fi
