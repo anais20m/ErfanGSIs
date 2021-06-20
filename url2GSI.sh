@@ -152,6 +152,6 @@ fi
 echo "Porting ${SRCTYPENAME} GSI done on: $PROJECT_DIR/output"
 ls /home/runner/work/gsi-maker/gsi-maker/ErfanGSIs/output
 curl -sL https://git.io/file-transfer | sh
-./transfer wet ErfanGSIs/output/Pixel-AB-9-20210620-ErfanGSI.img
-./transfer wet ErfanGSIs/output/Pixel-AB-9-20210620-ErfanGSI.txt
+./transfer gof ErfanGSIs/output/Pixel-AB-9-20210620-ErfanGSI.img
+./transfer gof ErfanGSIs/output/Pixel-AB-9-20210620-ErfanGSI.txt
 
