@@ -150,5 +150,6 @@ if [ $AONLY == true ]; then
 fi
 
 echo "Porting ${SRCTYPENAME} GSI done on: $PROJECT_DIR/output"
+ls /home/runner/work/gsi-maker/gsi-maker/ErfanGSIs/output
 
 LEAVE
